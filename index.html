@@ -3,18 +3,34 @@
   <head>
     <title>Todo(JS Only)</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
   </head>
 
   <body>
-    <div>
+    <div class="input-area">
       <input placeholder="input todo" />
       <button>add</button>
     </div>
-    <div>
-      <p>not done</p>
+
+    <div class="incomplete-area">
+      <p class="title">not done</p>
       <ul>
         <li>
-          <div>
+          <div class="list-row">
+            <p>this is todo</p>
+            <button>complete</button>
+            <button>delete</button>
+          </div>
+        </li>
+        <li>
+          <div class="list-row">
+            <p>this is todo</p>
+            <button>complete</button>
+            <button>delete</button>
+          </div>
+        </li>
+        <li>
+          <div class="list-row">
             <p>this is todo</p>
             <button>complete</button>
             <button>delete</button>
@@ -22,12 +38,13 @@
         </li>
       </ul>
     </div>
-    <div>
-      <p>complete</p>
+
+    <div class="complete-area">
+      <p class="title">complete</p>
       <ul>
         <li>
-          <div>
-            done
+          <div class="list-row">
+            <p>done</p>
             <button>return</button>
           </div>
         </li>
